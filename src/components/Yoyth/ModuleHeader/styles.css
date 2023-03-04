@@ -1,0 +1,75 @@
+.icon {
+  min-width: 15px;
+  line-height: 15px;
+  text-align: center;
+  height: 25px;
+  color: #333;
+}
+
+.iconLink {
+	padding-left: 10px;
+	line-height: 25px;
+	cursor: pointer;
+
+	&:hover {
+		color: #555;
+	}
+}
+
+.iconMaxMin {
+  composes: icon;
+  composes: xiconMaxMin from "../../../shared/xicons.css";
+}
+.iconSettings {
+  composes: icon;
+  composes: xiconSettings from "../../../shared/xicons.css";
+}
+
+.header {
+  margin-top: 40px;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: auto;
+  height: 40px;
+  background-color: #FFF;
+  z-index: 999999;
+}
+
+.header ul {
+  list-style-type: none;
+  float: right;
+  padding: 2px 0px;
+  margin-right: 10px;
+  margin-top: 6px;
+  box-sizing: border-box;
+  height: 25px;
+}
+.header ul li {
+  font-size: 16px;
+  position: relative;
+  float: left;
+  cursor: pointer;
+  padding: 0 10px;
+  margin-top: 0px;
+  margin: 0;
+}
+.header ul li:first-child {
+  border-left: none;
+}
+@media only screen and (min-width: 700px) {
+  .header ul li {
+    border-left: 1px solid #DDD;
+  }
+}
+.header ul li i {
+  padding-right: 5px;
+}
+.header .iconLabel {
+  display: none;
+}
+@media only screen and (min-width: 700px) {
+  .header .icon-label {
+    display: inline-block;
+  }
+}

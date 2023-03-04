@@ -1,0 +1,6 @@
+{
+  "name": "ModuleHeader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ModuleHeader.js"
+}

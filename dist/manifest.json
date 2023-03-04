@@ -1,0 +1,15 @@
+{
+  "short_name": "Yoyth",
+  "name": "Yoyth - You own your things",
+  "icons": [
+    {
+      "src": "yoythy.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

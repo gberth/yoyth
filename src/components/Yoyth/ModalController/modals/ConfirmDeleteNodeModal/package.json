@@ -1,0 +1,9 @@
+{
+  "name": "ConfirmDeleteNodeModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ConfirmDeleteNodeModal.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}

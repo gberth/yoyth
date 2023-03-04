@@ -1,0 +1,9 @@
+{
+  "name": "WebSocketsModule",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./WebSocketsModule.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}

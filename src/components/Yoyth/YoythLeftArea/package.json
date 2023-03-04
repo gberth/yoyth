@@ -1,0 +1,9 @@
+{
+  "name": "YoythLeftArea",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./YoythLeftArea.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}

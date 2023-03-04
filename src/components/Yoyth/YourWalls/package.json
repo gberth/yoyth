@@ -1,0 +1,9 @@
+{
+  "name": "YourWalls",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./YourWalls.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}

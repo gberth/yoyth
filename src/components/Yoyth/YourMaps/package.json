@@ -1,0 +1,9 @@
+{
+  "name": "YourMaps",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./YourMaps.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}

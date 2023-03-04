@@ -1,0 +1,9 @@
+{
+  "name": "YoythM",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./YoythM.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}

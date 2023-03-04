@@ -1,0 +1,55 @@
+{
+  "name": "yoyth",
+  "version": "1.0.1",
+  "description": "You Own Your Things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "start": "parcel src/index.html -p $PORT",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cssnano-cli": "^1.0.5"
+  },
+  "engines": {
+    "node": "16.x.x"
+  },  
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@cerebral/react": "^3.2.2",
+    "@cerebral/useragent": "^3.2.2",
+    "cerebral": "^4.2.2",
+    "deepmerge": "^2.2.1",
+    "immutable": "^3.8.2",
+    "moment": "^2.29.1",
+    "parcel-bundler": "^1.12.5",
+    "popmotion": "^8.7.6",
+    "pretty": "^2.0.0",
+    "react": "^16.14.0",
+    "react-ace": "^6.6.0",
+    "react-datepicker": "^1.8.0",
+    "react-dom": "^16.14.0",
+    "react-google-charts": "^3.0.15",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^3.11.0",
+    "react-pose": "^3.4.0",
+    "react-quill": "^1.3.5",
+    "react-transition-group": "^2.9.0",
+    "styled-components": "^4.4.1",
+    "underscore": "^1.12.1",
+    "uuid": "^3.4.0"
+  },
+  "author": "gberth",
+  "license": "ISC",
+  "keywords": [
+    "You",
+    "own",
+    "your",
+    "things"
+  ]
+}

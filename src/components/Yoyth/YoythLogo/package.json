@@ -1,0 +1,9 @@
+{
+  "name": "YoythLogo",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./YoythLogo.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
