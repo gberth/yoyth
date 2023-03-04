@@ -17,7 +17,7 @@
     "cssnano-cli": "^1.0.5"
   },
   "engines": {
-    "node": "16.x.x"
+    "node": "18.x.x"
   },  
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
