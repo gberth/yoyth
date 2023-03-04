@@ -4,39 +4,6 @@ import { connect } from '@cerebral/react'
 import { state, signal } from 'cerebral/tags'
 import style from 'styled-components'
 
-export type YoythEntityId = string
-export type YoythEntityType = string
-
-export type YoythEntity = {
-  id: YoythEntityId,
-  type: YoythEntityType,
-  width: number,
-  height: number,
-  border: boolean,
-  x: number,
-  y: number,
-  name: string,
-  mouseOver?: Object
-}
-
-export type YoythEntities = Array<YoythEntities>;
-
-export type YoythStreamProps = {
-  entity: YoythEntity,
-  sources: YoythEntities,
-  sinks: YoythEntities,
-  links: YoythEntities
-}
-
-export type YoythStreams = Array<YoythStreamProps>;
-
-export type YoythComponentProps = {
-  entity: YoythEntity,
-  streams: YoythStreams
-}
-
-export type YoythComponents = Array<YoythComponentProps>;
-
 const YoythComponents = [
   {
     entity: {
