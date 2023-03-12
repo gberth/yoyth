@@ -5,7 +5,7 @@ export default function connectYourWebSocket({ props, websocket, state, controll
   console.dir(controller)
   var wsid = uuid.v1()
   state.set('yoyth.wsstatus', 'open')
-  var result = websocket.open(wsid, 'wss:\\yoyth-216013.ew.r.appspot.com', {
+  var result = websocket.open(wsid, 'wss:\\y0y7h.herokuapp.com', {
     receiveSignal: controller.getSignal('receiveData'),
     setWebSocketStatus: controller.getSignal('setWebSocketStatus'),
     ping: {
