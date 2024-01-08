@@ -32,7 +32,7 @@ export default connect({
           <br />
           Yoyth is a startup, and currently in development
           <br />
-           © 2023 Yoyth - all rights reserved
+           © 2024 Yoyth - all rights reserved - Org.nr. 921010923
         </FooterTxt>
       )
     }
