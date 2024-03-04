@@ -18,7 +18,7 @@
   },
   "engines": {
     "node": "18.x.x"
-  },  
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@cerebral/react": "^3.2.2",
